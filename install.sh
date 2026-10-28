@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# FITCOM Linux Hardening Practice Lab | 1.0.0 | 2026-10-28
-# Independent practice material for rexaa. NOT an official FITCOM challenge.
+# Linux Hardening Practice Lab | 1.0.0 | 2026-10-28
+# Independent practice material for rexaa.
 # Intentionally weak configuration. Run ONLY in a disposable Ubuntu VM.
 # Usage: sudo bash install.sh [install|brief|check|hint ID|solutions|status|uninstall]
 # Ubuntu targets: 26.04 LTS; 24.04 LTS accepted for fallback practice.
@@ -397,7 +397,7 @@ brief() {
   installed_required
   cat <<'BRIEF'
 
-FITCOM PRACTICE / BRIEF UNTUK REXAA
+HARDENING PRACTICE / BRIEF 
 =================================
 Kamu mengambil alih server portal internal yang dikonfigurasi secara ceroboh.
 Lakukan audit, catat bukti, perbaiki konfigurasi, dan pertahankan fungsi bisnis.
